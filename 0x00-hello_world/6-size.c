@@ -1,19 +1,5 @@
 #include <stdio.h>
 /**
-*main - Entry point
-*
-*Description: A C program that prints with put function
-*
-*Return: always 0 (success)
-*/
-int main(void)
-{
-        puts("\"Programming is like building a multilingual puzzle);
-        return (0);
-}
-root@7788c34b9847:~/Betty/alx-low_level_programming/0x00-hello_world# cat 5-printf.c
-#include <stdio.h>
-/**
  * main Entry point
  *
  * Description: using sizeof to print the size of various types.
