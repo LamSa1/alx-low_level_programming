@@ -1,14 +1,16 @@
 #include <unistd.h>
+
 /**
-* main - Entry point
-*
-* Description: print a qoute using write functin;
-*
-* Return: 1 (error).
-*/
+ * main - prints a string to standard error
+ *
+ * Return: Always 1 (Error code)
+ */
 int main(void)
 {
-	 write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	 return (1);
+	write(2, str, sizeof(str) - 1);
+
+	return (1);
 }
+
