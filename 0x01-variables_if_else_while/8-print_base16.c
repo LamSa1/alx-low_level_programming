@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all the numbers of base 16 in lowercase, followed by a new line.
+ * main - prints all the numbers of base 16 in lowercase,
+ * followed by a new line.
  *
  * Return: Alwayz 0 (Success)
 */
@@ -12,10 +13,10 @@ int main(void)
 	{
 		putchar(i);
 	}
-	for (i =97; i < 103; i++)
+	for (i = 97; i < 103; i++)
 	{
 		putchar(i);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
