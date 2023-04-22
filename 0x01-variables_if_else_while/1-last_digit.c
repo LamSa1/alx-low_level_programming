@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - prints the last digit of a randomly genereted num
  *
  * Description - This function generates a random number.
  *
- * Return:Alwayz 0
+ * Return:Always 0
 */
 int main(void)
 {
