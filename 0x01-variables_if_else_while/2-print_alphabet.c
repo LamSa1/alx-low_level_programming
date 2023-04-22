@@ -4,7 +4,7 @@
  *
  * Return:Alwayz 0
 */
-int main (void)
+int main(void)
 {
 	char alph[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;

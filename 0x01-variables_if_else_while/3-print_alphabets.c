@@ -5,7 +5,7 @@
  *
  * Return:Alwayz 0 (Success)
 */
-int main (void)
+int main(void)
 {
 	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		int i;
