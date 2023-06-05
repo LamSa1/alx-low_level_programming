@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_listint - frees a linked list
+ * free_listint - frees
  * @head: listint_t list
  */
 void free_listint(listint_t *head)
@@ -11,7 +11,7 @@ void free_listint(listint_t *head)
 	while (head)
 	{
 		temp = head->next;
-		head = temp;
 		free(head);
+		head = temp;
 	}
 }
